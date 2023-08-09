@@ -6,13 +6,23 @@ class Ninja {
         this.health = health;
     }
 
-    sayName() { console.log(this.name); }
+    sayName() {
+        console.log(this.name);
+        return this;
+    }
 
-    showStats() { console.log(`name: ${this.name}\nstrength: ${this.strength}\nspeed: ${this.speed}\nhealth: ${this.health}`); }
+    showStats() {
+        console.log(`name: ${this.name}\nstrength: ${this.strength}\nspeed: ${this.speed}\nhealth: ${this.health}`);
+        return this;
+    }
 
-    drinkSake() { this.health += 10; }
+    drinkSake() {
+        this.health += 10;
+        console.log(`${this.name} drank sake`);
+        return this;
+    }
 }
 
 goku = new Ninja("Goku", Infinity, Infinity, Infinity)
 
-goku.showStats()
+goku.sayName().showStats().drinkSake().showStats();
