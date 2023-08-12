@@ -5,6 +5,8 @@ function App() {
         <div className="App">
             <PersonCard firstName="dew" lastName="i forgor" age={19} hairColor="Orange"/>
             <PersonCard firstName="hazem" lastName="hegazy" age={17} hairColor="Black"/>
+            <PersonCard firstName="joe" lastName="mama" age={69} hairColor="Brown"/>
+            <PersonCard firstName="joe" lastName="biden" age={78} hairColor="Gray"/>
         </div>
     );
 }
