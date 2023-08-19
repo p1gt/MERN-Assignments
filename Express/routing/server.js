@@ -36,6 +36,6 @@ app.delete("/api/users/:id", (req, res) => {
 	res.json({ status: "ok" });
 });
 
-app.listen(8000, () =>{
+app.listen(8000, () => {
 	console.log("Listening on port 8000");
 });
