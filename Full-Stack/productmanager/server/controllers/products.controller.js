@@ -11,8 +11,18 @@ module.exports = {
 			.then(products => res.json(products))
 			.catch(err => res.status(400).json(err));
 	},
-	retrieveOne: (req, res) => {
+	retrieve: (req, res) => {
 		Product.findOne({ _id: req.params.id })
+			.then(product => res.json(product))
+			.catch(err => res.status(400).json(err));
+	},
+	update: (req, res) => {
+		Product.updateOne({ _id: req.params.id }, req.body, { runValidators: true, new: true })
+			.then(product => res.json(product))
+			.catch(err => res.status(400).json(err));
+	},
+	delete: (req, res) => {
+		Product.deleteOne({ _id: req.params.id })
 			.then(product => res.json(product))
 			.catch(err => res.status(400).json(err));
 	},
