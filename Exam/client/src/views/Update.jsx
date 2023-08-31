@@ -57,7 +57,7 @@ const Update = () => {
                             <span>{errors.open.message}</span>
                         )}
                     </div>
-                    <button onClick={(y) => updateStore}>update</button>
+                    <button onClick={() => updateStore}>update</button>
                 </form>
             )}
         </>
