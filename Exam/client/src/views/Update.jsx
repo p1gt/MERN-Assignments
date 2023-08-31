@@ -1,4 +1,4 @@
-import {useNavigate, useParams} from "react-router-dom";
+import {Link, useNavigate, useParams} from "react-router-dom";
 import {useEffect, useState} from "react";
 import axios from "axios";
 
@@ -18,21 +18,21 @@ const Update = () => {
             .catch(err => console.log(err));
     }, [ id ]);
 
-    const updateStore = e => {
+    const updateStore = (e) => {
         e.preventDefault();
         axios.patch(`http://localhost:8000/api/store/${id}`, store)
-            .then(() => {
-                navigate(`/store/${id}`);
+            .then(res => {
+                navigate(`/${res.data._id}`);
             })
             .catch(err => {
-                console.log(err.response);
                 setErrors(err.response.data.errors);
             });
-    }
+    };
 
     return (
         <>
             <p>edit this store</p>
+            <Link to={'/'}>go home</Link>
             {loaded && (
                 <form onSubmit={updateStore}>
                     <div>
@@ -52,12 +52,12 @@ const Update = () => {
                     </div>
                     <div>
                         <label>Open: </label>
-                        <input type="checkbox" name="open" id="open" value={store.open} onChange={e => setStore({...store, open: e.target.value})} />
+                        <input type="checkbox" onChange={e => setStore({...store, open: e.target.checked})} checked={store.open} />
                         {errors.open && (
                             <span>{errors.open.message}</span>
                         )}
                     </div>
-                    <button onClick={() => updateStore(store._id)}>update</button>
+                    <button onClick={(y) => updateStore}>update</button>
                 </form>
             )}
         </>

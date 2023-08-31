@@ -9,6 +9,7 @@ const  Create = () => {
 
     const submitHandler = (e) => {
         e.preventDefault();
+
         axios.post("http://localhost:8000/api/store", store)
             .then(res => {
                 navigate(`/${res.data._id}`);

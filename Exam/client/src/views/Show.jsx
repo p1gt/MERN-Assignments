@@ -13,7 +13,7 @@ const Show = () => {
                 setStore(res.data);
             })
             .catch(err => console.log(err));
-    }, [ store ]);
+    }, [ id ]);
 
     return (
         <>
@@ -25,7 +25,7 @@ const Show = () => {
                     <span>open</span>:
                     <span>closed</span>
             }</p>
-            <button onClick={() => navigate(`/edit/${id}`)}>edit</button>
+            <button onClick={() => navigate(`/${id}/edit`)}>edit</button>
         </>
     );
 };

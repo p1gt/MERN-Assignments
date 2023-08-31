@@ -4,39 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16d56817-bf0d-4eb0-b94b-0dfe30ab7273" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Exam.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/Create.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/List.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/Show.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/Update.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/config/mongoose.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/store.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/store.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/store.routes.js" afterDir="false" />
+    <list default="true" id="16d56817-bf0d-4eb0-b94b-0dfe30ab7273" name="Changes" comment="_">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Create.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Show.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Show.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Update.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Update.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/store.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/store.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,22 +45,23 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -97,8 +71,34 @@
       <option name="presentableId" value="Default" />
       <updated>1693459909193</updated>
       <workItem from="1693459911130" duration="3573000" />
-      <workItem from="1693465737168" duration="4776000" />
+      <workItem from="1693465737168" duration="5713000" />
+      <workItem from="1693471708424" duration="3704000" />
     </task>
+    <task id="LOCAL-00001" summary="_">
+      <option name="closed" value="true" />
+      <created>1693470808512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693470808513</updated>
+    </task>
+    <task id="LOCAL-00002" summary="_">
+      <option name="closed" value="true" />
+      <created>1693470841775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693470841775</updated>
+    </task>
+    <task id="LOCAL-00003" summary="_">
+      <option name="closed" value="true" />
+      <created>1693470851625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693470851625</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="_" />
+    <option name="LAST_COMMIT_MESSAGE" value="_" />
   </component>
 </project>
